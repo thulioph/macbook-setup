@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+sudo apt-get -qq update
+sudo apt-get -qq install \
+python-dev \
+gnome-do \
+curl \
+htop \
+zsh \
+mpg123 \
+aptitude \
+ack-grep \
+terminator \
+make \
+build-essential \
+autoconf \
+tree \
+git \
+libssl-dev \
+libffi-dev \
+libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk

@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+# CREATING SSH
+
+ssh-keygen -t rsa -b 4096 -C "renato@labcodes.com.br"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+# NODE.JS
+
+wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+e_success "NVM loaded"
+
+nvm install 6.9.1
+nvm use 6.9.1
+nvm alias default 6.9.1
+n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,share} /usr/local
+npm install -g npm@latest
+npm install -g bower gulp-cli
+
+
+# PYTHON
+
+sudo apt-get -qq install python-pip
+sudo pip install virtualenv virtualenvwrapper
+
+# POSTGRES
+
+sudo apt-get install postgresql-client-9.5 postgresql-9.5 postgresql-contrib-9.5 libpq-dev postgresql-server-dev-9.5
+sudo -u postgres createuser renato
+sudo -u postgres psql -c 'alter user renato with superuser' postgres
+
+# HEROKU
+
+wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh

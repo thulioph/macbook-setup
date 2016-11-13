@@ -1,0 +1,74 @@
+ZSH=$HOME/.oh-my-zsh
+
+ZSH_THEME="clean"
+DISABLE_AUTO_UPDATE=true
+DISABLE_AUTO_TITLE=true
+DEFAULT_USER=renato
+
+# Env
+export EDITOR="subl -n -w"
+
+# Aliases
+alias dspace="df -h -T"
+alias dev="cd ~/worskpace"
+alias open="x-www-browser"
+
+alias root='sudo su'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown -hP now'
+
+alias wk='workon'
+
+# One of @janmoesen’s ProTip™s
+for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
+  alias "$method"="lwp-request -m '$method'"
+done
+
+
+# Settings
+setopt autocd
+
+# Plugins
+plugins=(git coffee virtualenvwrapper python pep8)
+
+source $ZSH/oh-my-zsh.sh
+
+# Customize to your needs...
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=$PATH:/usr/local/go/bin
+
+# Shamelessly taken from here:
+# https://github.com/paulmillr/dotfiles
+
+# Show how much RAM application uses.
+# $ ram safari
+# # => safari uses 154.69 MBs of RAM.
+function ram() {
+  local sum
+  local items
+  local app="$1"
+  if [ -z "$app" ]; then
+    echo "First argument - pattern to grep from processes"
+  else
+    sum=0
+    for i in `ps aux | grep -i "$app" | grep -v "grep" | awk '{print $6}'`; do
+      sum=$(($i + $sum))
+    done
+    sum=$(echo "scale=2; $sum / 1024.0" | bc)
+    if [[ $sum != "0" ]]; then
+      echo "${fg[blue]}${app}${reset_color} uses ${fg[green]}${sum}${reset_color} MBs of RAM."
+    else
+      echo "There are no processes with pattern '${fg[blue]}${app}${reset_color}' are running."
+    fi
+  fi
+}
+
+function subl(){ 
+  ( sublime $1 2>/dev/null & )
+}
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace
+export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
