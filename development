@@ -36,3 +36,13 @@ sudo -u postgres psql -c 'alter user renato with superuser' postgres
 # HEROKU
 
 wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# REDIS
+
+mkdir -p ~/Development
+cd ~/Development
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+sudo make install
