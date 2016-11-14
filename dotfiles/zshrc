@@ -63,10 +63,6 @@ function ram() {
   fi
 }
 
-function subl(){ 
-  ( sublime $1 2>/dev/null & )
-}
-
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/workspace
 export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
