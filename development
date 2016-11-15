@@ -46,3 +46,7 @@ tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
 sudo make install
+
+# SASS
+
+sudo su -c "gem install sass"
