@@ -32,6 +32,7 @@ sudo pip install virtualenv virtualenvwrapper
 sudo apt-get install postgresql-client-9.5 postgresql-9.5 postgresql-contrib-9.5 libpq-dev postgresql-server-dev-9.5
 sudo -u postgres createuser renato
 sudo -u postgres psql -c 'alter user renato with superuser' postgres
+psql -d template1 -c 'create extension hstore;' # it creates hstore on the default template
 
 # HEROKU
 
