@@ -21,6 +21,8 @@ n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,
 npm install -g npm@latest
 npm install -g bower gulp-cli
 
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p # GULP ISSUE - https://github.com/gulpjs/gulp/issues/217
+
 
 # PYTHON
 
