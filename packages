@@ -20,4 +20,4 @@ libffi-dev \
 libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk \
 rabbitmq-server \
 default-jre default-jdk \
-libxml2-dev libxslt1-dev zlib1g-dev
+libxml2-dev libxslt1-dev libncurses5-dev
