@@ -10,7 +10,7 @@ export EDITOR="subl -n -w"
 
 # Aliases
 alias dspace="df -h -T"
-alias dev="cd ~/worskpace"
+alias dev="cd ~/workspace"
 alias open="x-www-browser"
 
 alias root='sudo su'
