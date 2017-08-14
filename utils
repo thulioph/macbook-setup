@@ -19,6 +19,8 @@ if [[ $SHELL =~ zsh ]]; then
   e_success 'You already use zsh. Awesome!'
 else
   e_arrow 'Changing shell to zsh'
+  # Adds zsh to shells
+  command -v zsh | sudo tee -a /etc/shells
   chsh -s $(which zsh)
 fi
 
