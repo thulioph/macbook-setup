@@ -2,7 +2,7 @@
 
 # CREATING SSH
 
-ssh-keygen -t rsa -b 4096 -C "renato@labcodes.com.br"
+ssh-keygen -t rsa -b 4096 -C "thulioph@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
@@ -14,14 +14,11 @@ export NVM_DIR="$HOME/.nvm"
 
 e_success "NVM loaded"
 
-nvm install 6.9.1
-nvm use 6.9.1
-nvm alias default 6.9.1
+nvm install 8.9.4
+nvm use 8.9.4
+nvm alias default 8.9.4
 n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,share} /usr/local
 npm install -g npm@latest
-npm install -g bower gulp-cli
-
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p # GULP ISSUE - https://github.com/gulpjs/gulp/issues/217
 
 
 # PYTHON
@@ -32,8 +29,8 @@ sudo pip install virtualenv virtualenvwrapper
 # POSTGRES
 
 sudo apt-get install postgresql-client-9.5 postgresql-9.5 postgresql-contrib-9.5 libpq-dev postgresql-server-dev-9.5
-sudo -u postgres createuser renato
-sudo -u postgres psql -c 'alter user renato with superuser' postgres
+sudo -u postgres createuser thulio
+sudo -u postgres psql -c 'alter user thulio with superuser' postgres
 psql -d template1 -c 'create extension hstore;' # it creates hstore on the default template
 
 # HEROKU
