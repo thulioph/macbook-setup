@@ -1,4 +1,4 @@
-printf "################ Setting up the Environment ################\n\n"
+printf "################ Setting up the System Configuration ################\n\n"
 
 printf "Show hidden files\n"
 defaults write com.apple.finder AppleShowAllFiles YES
