@@ -9,6 +9,7 @@
   - Homebrew Cask
     - https://caskroom.github.io/
     - https://github.com/sindresorhus/quick-look-plugins
+    - https://devcenter.heroku.com/articles/heroku-cli#macos
   - Franz
   - Google Chrome
   - Firefox
@@ -52,6 +53,8 @@
 - https://gist.github.com/kelvinst/331aff32508e2517afbd
 - https://gist.github.com/pksunkara/988716
 - https://github.com/djalmaaraujo/macbook-bootstrap
+- https://github.com/paulmillr/dotfiles
+- https://github.com/mathiasbynens/dotfiles
 
 ----
 
