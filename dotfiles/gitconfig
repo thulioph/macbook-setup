@@ -1,6 +1,7 @@
 [user]
   name = Thulio Philipe
   email = thulioph@gmail.com
+  signingkey = 4B3D0BE96BA8D93E
 
 [color]
 	ui = auto
@@ -11,7 +12,8 @@
 	remote = cyan bold
 
 [color "diff"]
-	meta = yellow bold frag = magenta bold
+	meta = yellow bold 
+  frag = magenta bold
 	old = red bold
 	new = green bold
 	whitespace = red reverse
@@ -25,6 +27,9 @@
   editor = vim
   pager = less -R
   whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+
+[commit]
+	gpgsign = true
 
 [alias]
   cm = commit -m

@@ -1,23 +1,26 @@
 #!/usr/bin/env bash
-sudo apt-get -qq update
-sudo apt-get -qq install \
-python-dev \
-gnome-do \
-curl \
-htop \
-zsh \
-mpg123 \
-aptitude \
-ack-grep \
-terminator \
-make \
-build-essential \
-autoconf \
-tree \
-git \
-libssl-dev \
-libffi-dev \
-libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk \
-rabbitmq-server \
-default-jre default-jdk \
-libxml2-dev libxslt1-dev libncurses5-dev
+
+sudo echo "Ask for password before all the scripts 🤓"
+
+echo "\n\n################ Installing HomeBrew ################\n\n"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# ZSH
+
+if [[ $SHELL =~ zsh ]]; then
+  e_success 'You already use zsh. Awesome!'
+else
+  e_arrow 'Changing shell to zsh'
+  # Adds zsh to shells
+  command -v zsh | sudo tee -a /etc/shells
+  chsh -s $(which zsh)
+fi
+
+# OH-MY-ZSH
+
+if [ -d "$HOME/.oh-my-zsh" ]; then
+  e_already 'oh-my-zsh'
+else
+  e_arrow 'Installing oh-my-zsh'
+  curl -L http://install.ohmyz.sh | sh > /dev/null 2>&1
+fi

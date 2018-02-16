@@ -1,60 +1,96 @@
 #!/usr/bin/env bash
 
-# CREATING SSH
-
+echo "\n\n########## Creating SSH ##########\n\n"
 ssh-keygen -t rsa -b 4096 -C "thulioph@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
-# NODE.JS
+echo "\n\n########## Installing GIT ##########\n\n"
+brew install git
 
-wget -qO- https://raw.github.com/creationix/nvm/master/install.sh | sh
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+echo "\n\n########## Installing NODE ##########\n\n"
+brew install node
 
-e_success "NVM loaded"
+echo "\n\n########## Installing PYTHON3 ##########\n\n"
+brew install python3
 
-nvm install 8.9.4
-nvm use 8.9.4
-nvm alias default 8.9.4
-n=$(which node);n=${n%/bin/node}; chmod -R 755 $n/bin/*; sudo cp -r $n/{bin,lib,share} /usr/local
-npm install -g npm@latest
+echo "\n\n########## Installing PIP ##########\n\n"
+easy_install pip
 
+echo "\n\n########## Updating PIP ##########\n\n"
+pip install --upgrade pip
 
-# PYTHON
+echo "\n\n########## Installing SASS ##########\n\n"
+gem install sass
 
-sudo apt-get -qq install python-pip
-sudo pip install virtualenv virtualenvwrapper
+echo "\n\n########## Installing Showterm ##########\n\n"
+gem install showterm
 
-# POSTGRES
+echo "\n\n########## Installing Heroku Toolbet ##########\n\n"
+brew install heroku/brew/heroku
 
-sudo apt-get install postgresql-client-9.5 postgresql-9.5 postgresql-contrib-9.5 libpq-dev postgresql-server-dev-9.5
-sudo -u postgres createuser thulio
-sudo -u postgres psql -c 'alter user thulio with superuser' postgres
-psql -d template1 -c 'create extension hstore;' # it creates hstore on the default template
+echo "\n\n########## Installing NGROK ##########\n\n"
+brew cask install ngrok
 
-# HEROKU
+echo "\n\n########## Installing Terminal Helpers ##########\n\n"
+brew install wget curl tree wifi-password coreutils
 
-wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+echo "\n\n########## Installing GPG-Suite ##########\n\n"
+brew cask install gpg-suite
 
-# REDIS
+echo "\n\n########## Installing Dev Utils ##########\n\n"
+brew cask install iterm2 docker java sublime-text  visual-studio-code
 
-mkdir -p ~/Development
-cd ~/Development
-wget http://download.redis.io/redis-stable.tar.gz
-tar xvzf redis-stable.tar.gz
-cd redis-stable
-make
-sudo make install
+echo "\n\n########## Installing Quick Look Plugins ##########\n\n"
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 
-# SASS
+echo "\n\n################ Installing Antigen ################\n\n"
+brew install antigen
+#!/usr/bin/env bash
 
-sudo su -c "gem install sass"
+echo "\n\n########## Creating SSH ##########\n\n"
+ssh-keygen -t rsa -b 4096 -C "thulioph@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
 
+echo "\n\n########## Installing GIT ##########\n\n"
+brew install git
 
-# Python 3.6
+echo "\n\n########## Installing NODE ##########\n\n"
+brew install node
 
-sudo add-apt-repository ppa:jonathonf/python-3.6
-sudo apt-get update
-sudo apt-get install python3.6
-sudo apt-get install python3.6-dev
+echo "\n\n########## Installing PYTHON3 ##########\n\n"
+brew install python3
+
+echo "\n\n########## Installing PIP ##########\n\n"
+easy_install pip
+
+echo "\n\n########## Updating PIP ##########\n\n"
+pip install --upgrade pip
+
+echo "\n\n########## Installing SASS ##########\n\n"
+gem install sass
+
+echo "\n\n########## Installing Showterm ##########\n\n"
+gem install showterm
+
+echo "\n\n########## Installing Heroku Toolbet ##########\n\n"
+brew install heroku/brew/heroku
+
+echo "\n\n########## Installing NGROK ##########\n\n"
+brew cask install ngrok
+
+echo "\n\n########## Installing Terminal Helpers ##########\n\n"
+brew install wget curl tree wifi-password coreutils
+
+echo "\n\n########## Installing GPG-Suite ##########\n\n"
+brew cask install gpg-suite
+
+echo "\n\n########## Installing Dev Utils ##########\n\n"
+brew cask install iterm2 docker java sublime-text  visual-studio-code
+
+echo "\n\n########## Installing Quick Look Plugins ##########\n\n"
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
+
+echo "\n\n################ Installing Antigen ################\n\n"
+brew install antigen
