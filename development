@@ -1,55 +1,7 @@
 #!/usr/bin/env bash
 
 echo "\n\n########## Creating SSH ##########\n\n"
-ssh-keygen -t rsa -b 4096 -C "thulioph@gmail.com"
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-
-echo "\n\n########## Installing GIT ##########\n\n"
-brew install git
-
-echo "\n\n########## Installing NODE ##########\n\n"
-brew install node
-
-echo "\n\n########## Installing PYTHON3 ##########\n\n"
-brew install python3
-
-echo "\n\n########## Installing PIP ##########\n\n"
-easy_install pip
-
-echo "\n\n########## Updating PIP ##########\n\n"
-pip install --upgrade pip
-
-echo "\n\n########## Installing SASS ##########\n\n"
-gem install sass
-
-echo "\n\n########## Installing Showterm ##########\n\n"
-gem install showterm
-
-echo "\n\n########## Installing Heroku Toolbet ##########\n\n"
-brew install heroku/brew/heroku
-
-echo "\n\n########## Installing NGROK ##########\n\n"
-brew cask install ngrok
-
-echo "\n\n########## Installing Terminal Helpers ##########\n\n"
-brew install wget curl tree wifi-password coreutils
-
-echo "\n\n########## Installing GPG-Suite ##########\n\n"
-brew cask install gpg-suite
-
-echo "\n\n########## Installing Dev Utils ##########\n\n"
-brew cask install iterm2 docker java sublime-text  visual-studio-code
-
-echo "\n\n########## Installing Quick Look Plugins ##########\n\n"
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
-
-echo "\n\n################ Installing Antigen ################\n\n"
-brew install antigen
-#!/usr/bin/env bash
-
-echo "\n\n########## Creating SSH ##########\n\n"
-ssh-keygen -t rsa -b 4096 -C "thulioph@gmail.com"
+ssh-keygen -t rsa -b 4096 -C $USER_EMAIL
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
