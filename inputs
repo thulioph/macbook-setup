@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo echo "Ask for password before all the scripts 🤓"
+
+read -p "Enter your Username: " USER_NAME
+read -p "Enter your E-mail: " USER_EMAIL
