@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-sudo echo "Ask for password before all the scripts 🤓"
-
 echo "\n\n################ Installing HomeBrew ################\n\n"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
