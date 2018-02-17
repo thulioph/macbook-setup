@@ -14,6 +14,9 @@ printf "\n\n ########## Dock ########## \n\n"
 printf "Set the icon size of Dock items to 48 pixels\n"
 defaults write com.apple.dock tilesize -int 48
 
+printf "Auto hide Dock\n"
+defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0.8 && killall Dock
+
 printf "Enable magnification\n"
 defaults write com.apple.dock magnification -bool false
 
