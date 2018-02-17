@@ -1,48 +1,63 @@
 #!/usr/bin/env bash
 
-echo "\n\n########## Creating SSH ##########\n\n"
+e_header "Creating SSH"
 ssh-keygen -t rsa -b 4096 -C $USER_EMAIL
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
+e_success "SSH created"
 
-echo "\n\n########## Installing GIT ##########\n\n"
+e_header "Installing GIT"
 brew install git
+e_success "GIT installed"
 
-echo "\n\n########## Installing NODE ##########\n\n"
+e_header "Installing NODE"
 brew install node
+e_success "Node installed"
 
-echo "\n\n########## Installing PYTHON3 ##########\n\n"
+e_header "Installing PYTHON3"
 brew install python3
+e_success "Python3 installed"
 
-echo "\n\n########## Installing PIP ##########\n\n"
+e_header "Installing PIP"
 easy_install pip
+e_success "Pip installed"
 
-echo "\n\n########## Updating PIP ##########\n\n"
+e_header "Updating PIP"
 pip install --upgrade pip
+e_success "Pip Updated"
 
-echo "\n\n########## Installing SASS ##########\n\n"
+e_header "Installing SASS"
 gem install sass
+e_success "SASS installed"
 
-echo "\n\n########## Installing Showterm ##########\n\n"
+e_header "Installing Showterm"
 gem install showterm
+e_success "Showterm installed"
 
-echo "\n\n########## Installing Heroku Toolbet ##########\n\n"
+e_header "Installing Heroku Toolbet"
 brew install heroku/brew/heroku
+e_success "Heroku Toolbet installed"
 
-echo "\n\n########## Installing NGROK ##########\n\n"
+e_header "Installing NGROK"
 brew cask install ngrok
+e_success "NGROK installed"
 
-echo "\n\n########## Installing Terminal Helpers ##########\n\n"
+e_header "Installing Terminal Helpers"
 brew install wget curl tree wifi-password coreutils
+e_success "Terminal Helpers installed"
 
-echo "\n\n########## Installing GPG-Suite ##########\n\n"
+e_header "Installing GPG-Suite"
 brew cask install gpg-suite
+e_success "GPG-Suite installed"
 
-echo "\n\n########## Installing Dev Utils ##########\n\n"
+e_header "Installing Dev Utils"
 brew cask install iterm2 docker java sublime-text  visual-studio-code
+e_success "Dev utils installed"
 
-echo "\n\n########## Installing Quick Look Plugins ##########\n\n"
+e_header "Installing Quick Look Plugins"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
+e_success "Quick Look Plugins installed"
 
-echo "\n\n################ Installing Antigen ################\n\n"
+e_header "Installing Antigen"
 brew install antigen
+e_success "Antigen installed"
