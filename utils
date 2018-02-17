@@ -1,16 +1,21 @@
 #!/usr/bin/env bash
 
-echo "\n\n########## Installing Homebrew Cask ##########\n\n"
+e_header "Installing Homebrew Cask"
 brew tap caskroom/cask
+e_success "Homebrew Cask installed"
 
-echo "\n\n########## Installing Apps ##########\n\n" 
+e_header "Installing Apps"
 brew cask install google-chrome firefox franz slack flux evernote spotify sketch zeplin harvest rescuetime
+e_success "Apps installed"
 
-echo "\n\n########## Installing Cask-Fonts ##########\n\n"
+e_header "Installing Cask-Fonts"
 brew tap caskroom/fonts
+e_success "Cask-Fonts installed"
 
-echo "\n\n########## Installing Fira Code ##########\n\n"
+e_header "Installing Fira Code"
 brew cask install font-fira-code
+e_success "Fira Code installed"
 
-echo "\n\n########## Installing Powerline Fonts ##########\n\n"
+e_header "Installing Powerline Fonts"
 curl -l https://raw.githubusercontent.com/powerline/fonts/master/install.sh | sh
+e_success "Powerline Fonts installed"

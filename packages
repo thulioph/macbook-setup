@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-echo "\n\n################ Installing HomeBrew ################\n\n"
+e_header "Installing HomeBrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+e_success "Homebrew installed"
 
 # ZSH
 
@@ -14,6 +15,8 @@ else
   chsh -s $(which zsh)
 fi
 
+e_success "Changed to ZSH"
+
 # OH-MY-ZSH
 
 if [ -d "$HOME/.oh-my-zsh" ]; then
@@ -22,3 +25,5 @@ else
   e_arrow 'Installing oh-my-zsh'
   curl -L http://install.ohmyz.sh | sh > /dev/null 2>&1
 fi
+
+e_success "Oh-my-zsh Installed"
