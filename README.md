@@ -32,6 +32,7 @@ $ sh env.sh
 - Enable animation when opening applications
 - Make icons of hidden applications translucent
 - Set magnification icon size to 80 pixels
+- Auto hide Dock
 
 #### Finder
 
