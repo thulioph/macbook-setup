@@ -11,3 +11,6 @@ brew tap caskroom/fonts
 
 echo "\n\n########## Installing Fira Code ##########\n\n"
 brew cask install font-fira-code
+
+echo "\n\n########## Installing Powerline Fonts ##########\n\n"
+curl -l https://raw.githubusercontent.com/powerline/fonts/master/install.sh | sh
