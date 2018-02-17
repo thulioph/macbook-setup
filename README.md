@@ -134,5 +134,3 @@ $ sh env.sh
 - https://github.com/mathiasbynens/dotfiles
 - https://gist.github.com/veggiemonk/f7dc67b05400905973e2db050dffd05b
 - https://gist.github.com/fforres/0575b5bfbf661f667cea9208867a101f
-- GPG Keychain
-    - https://help.github.com/articles/generating-a-new-gpg-key/
