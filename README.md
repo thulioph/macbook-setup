@@ -3,10 +3,18 @@
 > Automate your machine setup
 
 ## Additional Steps
-- Backup .ssh
-- Backup ~/dev
-- Backup ~/Documents
-- `xcode-select --install`
+- Updates the `gitconfig` file:
+    - name
+    - email
+    - signing key
+- Updates the `zshrc` file:
+    - default_user
+- Updates the `system.sh` file:
+    - user
+- Backup these files:
+    - .ssh
+    - ~/dev
+    - ~/Documents
 
 ## Installations
 
@@ -127,11 +135,11 @@ $ sh env.sh
 
 ## References
 
-- https://github.com/kelvinst/dotfiles
-- https://gist.github.com/kelvinst/331aff32508e2517afbd
-- https://gist.github.com/pksunkara/988716
-- https://github.com/djalmaaraujo/macbook-bootstrap
-- https://github.com/paulmillr/dotfiles
-- https://github.com/mathiasbynens/dotfiles
-- https://gist.github.com/veggiemonk/f7dc67b05400905973e2db050dffd05b
-- https://gist.github.com/fforres/0575b5bfbf661f667cea9208867a101f
+- [https://github.com/kelvinst/dotfiles](https://github.com/kelvinst/dotfiles)
+- [https://gist.github.com/kelvinst/331aff32508e2517afbd](https://gist.github.com/kelvinst/331aff32508e2517afbd)
+- [https://gist.github.com/pksunkara/988716](https://gist.github.com/pksunkara/988716)
+- [https://github.com/djalmaaraujo/macbook-bootstrap](https://github.com/djalmaaraujo/macbook-bootstrap)
+- [https://github.com/paulmillr/dotfiles](https://github.com/paulmillr/dotfiles)
+- [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [https://gist.github.com/veggiemonk/f7dc67b05400905973e2db050dffd05b](https://gist.github.com/veggiemonk/f7dc67b05400905973e2db050dffd05b)
+- [https://gist.github.com/fforres/0575b5bfbf661f667cea9208867a101f](https://gist.github.com/fforres/0575b5bfbf661f667cea9208867a101f)
