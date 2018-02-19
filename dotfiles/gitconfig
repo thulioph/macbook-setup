@@ -1,7 +1,7 @@
 [user]
-  name = Thulio Philipe
-  email = thulioph@gmail.com
-  signingkey = 4B3D0BE96BA8D93E
+  name = <YOUR_NAME>
+  email = <YOUR_EMAIL>
+  signingkey = <YOUR_SIGNIN_KEY>
 
 [color]
 	ui = auto
@@ -70,7 +70,7 @@
   default = current
 
 [github]
-  user = thulioph
+  user = <YOUR_USERNAME>
 
 [web]
   browser = google-chrome
