@@ -81,6 +81,7 @@ $ sh env.sh
 - [Homebrew](https://brew.sh/index_pt-br.html)
 - [Homebrew Cask](https://caskroom.github.io/)
 - [Homebrew Fonts](https://github.com/caskroom/homebrew-fonts)
+- [Mac App Store CLI](https://github.com/mas-cli/mas)
 - [GPG-Suite](https://gpgtools.org/)
 - [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [Ngrok](https://ngrok.com/)
