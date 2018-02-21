@@ -27,3 +27,8 @@ else
 fi
 
 e_success "Oh-my-zsh Installed"
+
+e_header "Installing Xcode"
+xcode-select --install
+
+e_success "Xcode Installed"

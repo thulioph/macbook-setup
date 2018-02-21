@@ -54,7 +54,7 @@ printf "Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
 
 printf "Save screenshots in Documents folder\n"
-defaults write com.apple.screencapture location /Users/thulioph/Documents/
+defaults write com.apple.screencapture location /Users/<YOUR_USER>/Documents/
 
 printf "Enable subpixel font rendering on non-Apple LCDs\n"
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
