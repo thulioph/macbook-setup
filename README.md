@@ -108,10 +108,9 @@ $ sh env.sh
 - [Spotify](https://www.spotify.com/br/download/mac/)
 - [Harvest](https://www.getharvest.com/mac-time-tracking)
 - [RescueTime](https://www.rescuetime.com/download)
-- [Be Focused](https://be-focused-focus-timer-goal-tracker-for-work.en.softonic.com/mac)
+- [Timer](https://github.com/michaelvillar/timer-app)
 - [Monosnap](https://monosnap.com/welcome)
 - [Theine](http://www.ixeau.com/en/apps/theine/)
-- ~~[AppCleaner](https://freemacsoft.net/appcleaner/)~~
 
 #### Development
 

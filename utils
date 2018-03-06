@@ -5,7 +5,7 @@ brew tap caskroom/cask
 e_success "Homebrew Cask installed"
 
 e_header "Installing Apps"
-brew cask install google-chrome firefox franz slack flux evernote spotify sketch zeplin harvest rescuetime
+brew cask install google-chrome firefox franz slack flux evernote spotify sketch zeplin harvest rescuetime michaelvillar-timer
 e_success "Apps installed"
 
 e_header "Installing Cask-Fonts"
