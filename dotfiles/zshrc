@@ -40,16 +40,14 @@ alias gcmedit="git commit --amend -m"
 alias glog="git log --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 ## OSX
-# alias ~="cd ~"
-# alias la="ls -a"
 alias emulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
 alias ip="ifconfig"
 alias wk='workon'
 alias pserver="python -m SimpleHTTPServer"
 
 ## NPM
-npm set init.author.email "thulioph@gmail.com"
-npm set init.author.name "Thulio Philipe"
+npm set init.author.email "<YOUR_EMAIL>"
+npm set init.author.name "<YOUR_NAME>"
 npm set init.license "MIT"
 
 # Show how much RAM application uses
@@ -74,9 +72,6 @@ function ram() {
     fi
   fi
 }
-
-# Editor
-export EDITOR="subl -n -w"
 
 # iTerm
 export TERM="xterm-256color"
