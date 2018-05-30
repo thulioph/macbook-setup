@@ -50,6 +50,9 @@ npm set init.author.email "<YOUR_EMAIL>"
 npm set init.author.name "<YOUR_NAME>"
 npm set init.license "MIT"
 
+# Postgres
+alias postgres="pg_ctl -D /usr/local/var/postgres"
+
 # Show how much RAM application uses
 # https://github.com/paulmillr/dotfiles
 # $ ram safari

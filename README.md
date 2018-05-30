@@ -120,7 +120,7 @@ $ sh env.sh
 - [Heroku Toolbet](https://devcenter.heroku.com/articles/heroku-cli#macos)
 - [iTerm2](https://www.iterm2.com/downloads.html)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
-- ~[Sublime Text](https://www.sublimetext.com/3)~
+- ~~[Sublime Text](https://www.sublimetext.com/3)~~
 - [Visual Studio Code](https://www.smashingmagazine.com/2018/01/visual-studio-code/)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
@@ -128,7 +128,7 @@ $ sh env.sh
 - [Sketch](https://www.sketchapp.com/)
 - [Zeplin](https://zeplin.io/)
 - ~~[Java](https://www.java.com/pt_BR/download/faq/java_mac.xml)~~
-- ~~[Postgress](https://www.postgresql.org/download/macosx/)~~
+- [Postgress](https://www.postgresql.org/download/macosx/)
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
 
 #### App Store
