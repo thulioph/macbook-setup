@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+e_header "Installing Keynote"
+mas install keynote
+e_success "Keynote installed"
