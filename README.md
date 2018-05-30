@@ -120,7 +120,7 @@ $ sh env.sh
 - [Heroku Toolbet](https://devcenter.heroku.com/articles/heroku-cli#macos)
 - [iTerm2](https://www.iterm2.com/downloads.html)
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
-- [Sublime Text](https://www.sublimetext.com/3)
+- ~[Sublime Text](https://www.sublimetext.com/3)~
 - [Visual Studio Code](https://www.smashingmagazine.com/2018/01/visual-studio-code/)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
