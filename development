@@ -14,6 +14,10 @@ e_header "Installing NODE"
 brew install node
 e_success "Node installed"
 
+e_header "Installing NVM"
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+e_success "NVM installed"
+
 e_header "Installing PYTHON3"
 brew install python3
 e_success "Python3 installed"
@@ -50,9 +54,25 @@ e_header "Installing GPG-Suite"
 brew cask install gpg-suite
 e_success "GPG-Suite installed"
 
-e_header "Installing Dev Utils"
-brew cask install iterm2 docker java sublime-text  visual-studio-code
-e_success "Dev utils installed"
+e_header "Installing iTerm2"
+brew cask install iterm2
+e_success "iTerm2 installed"
+
+e_header "Installing Docker"
+brew cask install docker
+e_success "Docker installed"
+
+e_header "Installing Java"
+brew cask install java
+e_success "Javainstalled"
+
+e_header "Installing VS Code"
+brew cask install visual-studio-code
+e_success "VS Code installed"
+
+e_header "Installing Postgres"
+brew install postgresql
+e_success "Postgres installed"
 
 e_header "Installing Quick Look Plugins"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
