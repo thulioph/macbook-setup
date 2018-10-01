@@ -15,3 +15,7 @@ e_success "Theine installed"
 e_header "Installing Be Focused"
 mas install 973134470
 e_success "Be Focused installed"
+
+e_header "Installing Day One"
+mas install 1055511498
+e_success "Day One installed"

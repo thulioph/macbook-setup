@@ -112,6 +112,7 @@ $ sh env.sh
 - [Monosnap](https://monosnap.com/welcome)
 - [Theine](http://www.ixeau.com/en/apps/theine/)
 - [Be Focused](https://xwavesoft.com/be-focused-pro-for-iphone-ipad-mac-os-x.html)
+- [Day One](https://dayoneapp.com)
 
 #### Development
 
