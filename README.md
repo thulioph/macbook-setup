@@ -108,7 +108,7 @@ $ sh env.sh
 - [Spotify](https://www.spotify.com/br/download/mac/)
 - [Harvest](https://www.getharvest.com/mac-time-tracking)
 - [RescueTime](https://www.rescuetime.com/download)
-- [Timer](https://github.com/michaelvillar/timer-app)
+- ~~[Timer](https://github.com/michaelvillar/timer-app)~~
 - [Monosnap](https://monosnap.com/welcome)
 - [Theine](http://www.ixeau.com/en/apps/theine/)
 
