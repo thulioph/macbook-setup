@@ -108,9 +108,11 @@ $ sh env.sh
 - [Spotify](https://www.spotify.com/br/download/mac/)
 - [Harvest](https://www.getharvest.com/mac-time-tracking)
 - [RescueTime](https://www.rescuetime.com/download)
-- [Timer](https://github.com/michaelvillar/timer-app)
+- ~~[Timer](https://github.com/michaelvillar/timer-app)~~
 - [Monosnap](https://monosnap.com/welcome)
 - [Theine](http://www.ixeau.com/en/apps/theine/)
+- [Be Focused](https://xwavesoft.com/be-focused-pro-for-iphone-ipad-mac-os-x.html)
+- [Day One](https://dayoneapp.com)
 
 #### Development
 
@@ -130,6 +132,7 @@ $ sh env.sh
 - ~~[Java](https://www.java.com/pt_BR/download/faq/java_mac.xml)~~
 - [Postgress](https://www.postgresql.org/download/macosx/)
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
+- [Postman](https://www.getpostman.com/)
 
 #### App Store
 
