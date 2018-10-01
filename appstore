@@ -11,3 +11,7 @@ e_success "Monosnap installed"
 e_header "Installing Theine"
 mas install 955848755
 e_success "Theine installed"
+
+e_header "Installing Be Focused"
+mas install 973134470
+e_success "Be Focused installed"
