@@ -62,10 +62,6 @@ e_header "Installing Docker"
 brew cask install docker
 e_success "Docker installed"
 
-e_header "Installing Java"
-brew cask install java
-e_success "Java installed"
-
 e_header "Installing Postman"
 brew cask install postman
 e_success "Postman installed"
