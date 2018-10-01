@@ -130,6 +130,7 @@ $ sh env.sh
 - ~~[Java](https://www.java.com/pt_BR/download/faq/java_mac.xml)~~
 - [Postgress](https://www.postgresql.org/download/macosx/)
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
+- [Postman](https://www.getpostman.com/)
 
 #### App Store
 

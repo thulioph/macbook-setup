@@ -64,7 +64,11 @@ e_success "Docker installed"
 
 e_header "Installing Java"
 brew cask install java
-e_success "Javainstalled"
+e_success "Java installed"
+
+e_header "Installing Postman"
+brew cask install postman
+e_success "Postman installed"
 
 e_header "Installing VS Code"
 brew cask install visual-studio-code
