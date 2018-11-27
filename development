@@ -81,3 +81,7 @@ e_success "Quick Look Plugins installed"
 e_header "Installing Antigen"
 brew install antigen
 e_success "Antigen installed"
+
+e_header "Installing Redis"
+brew install redis
+e_success "Redis installed"
