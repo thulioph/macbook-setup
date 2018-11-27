@@ -133,6 +133,7 @@ $ sh env.sh
 - [Postgress](https://www.postgresql.org/download/macosx/)
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
 - [Postman](https://www.getpostman.com/)
+- [Redis](https://redis.io/)
 
 #### App Store
 
