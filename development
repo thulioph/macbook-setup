@@ -61,3 +61,7 @@ e_success "Quick Look Plugins installed"
 e_header "Installing Antigen"
 brew install antigen
 e_success "Antigen installed"
+
+e_header "Installing JSON processor"
+brew install jq
+e_success "JSON processor installed"
