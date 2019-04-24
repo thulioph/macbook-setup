@@ -40,17 +40,18 @@ alias gcmedit="git commit --amend -m"
 alias glog="git log --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 ## OSX
-# alias ~="cd ~"
-# alias la="ls -a"
 alias emulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
 alias ip="ifconfig"
 alias wk='workon'
 alias pserver="python -m SimpleHTTPServer"
 
 ## NPM
-npm set init.author.email "thulioph@gmail.com"
-npm set init.author.name "Thulio Philipe"
+npm set init.author.email "<YOUR_EMAIL>"
+npm set init.author.name "<YOUR_NAME>"
 npm set init.license "MIT"
+
+# Postgres
+alias postgres="pg_ctl -D /usr/local/var/postgres"
 
 # Show how much RAM application uses
 # https://github.com/paulmillr/dotfiles
@@ -75,9 +76,6 @@ function ram() {
   fi
 }
 
-# Editor
-export EDITOR="subl -n -w"
-
 # iTerm
 export TERM="xterm-256color"
 
@@ -85,8 +83,12 @@ export TERM="xterm-256color"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
+# This loads nvm bash_completion
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
 # Language Environment
 export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
 
 # SSH
 export SSH_KEY_PATH="~/.ssh/dsa_id"

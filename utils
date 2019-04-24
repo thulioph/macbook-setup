@@ -4,9 +4,49 @@ e_header "Installing Homebrew Cask"
 brew tap caskroom/cask
 e_success "Homebrew Cask installed"
 
-e_header "Installing Apps"
-brew cask install google-chrome firefox franz slack flux evernote spotify sketch zeplin harvest rescuetime michaelvillar-timer
-e_success "Apps installed"
+e_header "Installing Google Chrome"
+brew cask install google-chrome
+e_success "Google Chrome installed"
+
+e_header "Installing Firefox"
+brew cask install firefox
+e_success "Firefox installed"
+
+e_header "Installing Franz"
+brew cask install franz
+e_success "Franz installed"
+
+e_header "Installing Slack"
+brew cask install slack
+e_success "Slack installed"
+
+e_header "Installing Flux"
+brew cask install flux
+e_success "Flux installed"
+
+e_header "Installing Evernote"
+brew cask install evernote
+e_success "Evernote installed"
+
+e_header "Installing Spotify"
+brew cask install spotify
+e_success "Spotify installed"
+
+e_header "Installing Sketch"
+brew cask install sketch
+e_success "Sketch installed"
+
+e_header "Installing Zeplin"
+brew cask install zeplin
+e_success "Zeplin installed"
+
+e_header "Installing Harvest"
+brew cask install harvest
+e_success "Harvest installed"
+
+e_header "Installing Rescuetime"
+brew cask install rescuetime
+e_success "Rescuetime installed"
 
 e_header "Installing Cask-Fonts"
 brew tap caskroom/fonts
