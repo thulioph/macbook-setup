@@ -113,6 +113,9 @@ $ sh env.sh
 - [Theine](http://www.ixeau.com/en/apps/theine/)
 - [Be Focused](https://xwavesoft.com/be-focused-pro-for-iphone-ipad-mac-os-x.html)
 - [Day One](https://dayoneapp.com)
+- [Shift It](https://github.com/fikovnik/ShiftIt)
+- [Vanilla](https://matthewpalmer.net/vanilla/)
+- [Balsamiq](https://balsamiq.com/)
 
 #### Development
 
@@ -134,6 +137,11 @@ $ sh env.sh
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
 - [Postman](https://www.getpostman.com/)
 - [Redis](https://redis.io/)
+- [Pipenv](https://github.com/pypa/pipenv)
+- [SQLite](https://www.sqlite.org/index.html)
+- [CircleCI](https://circleci.com/)
+- [Nmap](https://nmap.org/)
+- [itermocil](https://github.com/TomAnthony/itermocil)
 
 #### App Store
 

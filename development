@@ -74,6 +74,10 @@ e_header "Installing Postgres"
 brew install postgresql
 e_success "Postgres installed"
 
+e_header "Installing SQLite"
+brew install sqlite
+e_success "SQLite installed"
+
 e_header "Installing Quick Look Plugins"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 e_success "Quick Look Plugins installed"
@@ -89,3 +93,19 @@ e_success "JSON processor installed"
 e_header "Installing Redis"
 brew install redis
 e_success "Redis installed"
+
+e_header "Installing Pipenv"
+brew install pipenv
+e_success "Pipenv installed"
+
+e_header "Installing CircleCI"
+brew install circleci
+e_success "CircleCI installed"
+
+e_header "Installing nmap"
+brew install nmap
+e_success "nmap installed"
+
+e_header "Installing itermocil"
+brew install itermocil
+e_success "itermocil installed"
