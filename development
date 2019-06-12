@@ -105,3 +105,7 @@ e_success "CircleCI installed"
 e_header "Installing nmap"
 brew install nmap
 e_success "nmap installed"
+
+e_header "Installing itermocil"
+brew install itermocil
+e_success "itermocil installed"

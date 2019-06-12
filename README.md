@@ -141,6 +141,7 @@ $ sh env.sh
 - [SQLite](https://www.sqlite.org/index.html)
 - [CircleCI](https://circleci.com/)
 - [Nmap](https://nmap.org/)
+- [itermocil](https://github.com/TomAnthony/itermocil)
 
 #### App Store
 
