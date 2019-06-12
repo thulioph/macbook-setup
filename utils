@@ -67,3 +67,7 @@ e_success "Mac App Store installed"
 e_header "Installing ShiftIt CLI"
 brew install shiftit
 e_success "ShiftIt installed"
+
+e_header "Installing Vanilla CLI"
+brew install vanilla
+e_success "Vanilla installed"
