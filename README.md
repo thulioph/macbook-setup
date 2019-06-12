@@ -139,6 +139,7 @@ $ sh env.sh
 - [Redis](https://redis.io/)
 - [Pipenv](https://github.com/pypa/pipenv)
 - [SQLite](https://www.sqlite.org/index.html)
+- [CircleCI](https://circleci.com/)
 
 #### App Store
 

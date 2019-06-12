@@ -97,3 +97,7 @@ e_success "Redis installed"
 e_header "Installing Pipenv"
 brew install pipenv
 e_success "Pipenv installed"
+
+e_header "Installing CircleCI"
+brew install circleci
+e_success "CircleCI installed"
