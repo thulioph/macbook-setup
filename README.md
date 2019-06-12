@@ -140,6 +140,7 @@ $ sh env.sh
 - [Pipenv](https://github.com/pypa/pipenv)
 - [SQLite](https://www.sqlite.org/index.html)
 - [CircleCI](https://circleci.com/)
+- [Nmap](https://nmap.org/)
 
 #### App Store
 

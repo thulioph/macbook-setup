@@ -101,3 +101,7 @@ e_success "Pipenv installed"
 e_header "Installing CircleCI"
 brew install circleci
 e_success "CircleCI installed"
+
+e_header "Installing nmap"
+brew install nmap
+e_success "nmap installed"
