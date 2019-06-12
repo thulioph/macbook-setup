@@ -74,6 +74,10 @@ e_header "Installing Postgres"
 brew install postgresql
 e_success "Postgres installed"
 
+e_header "Installing SQLite"
+brew install sqlite
+e_success "SQLite installed"
+
 e_header "Installing Quick Look Plugins"
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package qlvideo
 e_success "Quick Look Plugins installed"

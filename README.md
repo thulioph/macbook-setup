@@ -138,6 +138,7 @@ $ sh env.sh
 - [Postman](https://www.getpostman.com/)
 - [Redis](https://redis.io/)
 - [Pipenv](https://github.com/pypa/pipenv)
+- [SQLite](https://www.sqlite.org/index.html)
 
 #### App Store
 
