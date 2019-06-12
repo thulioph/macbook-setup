@@ -71,3 +71,7 @@ e_success "ShiftIt installed"
 e_header "Installing Vanilla CLI"
 brew install vanilla
 e_success "Vanilla installed"
+
+e_header "Installing Balsamiq CLI"
+brew install balsamiq-mockups
+e_success "Balsamiq installed"
