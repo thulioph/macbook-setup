@@ -63,3 +63,7 @@ e_success "Powerline Fonts installed"
 e_header "Installing Mac App Store CLI"
 brew install mas
 e_success "Mac App Store installed"
+
+e_header "Installing ShiftIt CLI"
+brew install shiftit
+e_success "ShiftIt installed"

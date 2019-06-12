@@ -113,6 +113,7 @@ $ sh env.sh
 - [Theine](http://www.ixeau.com/en/apps/theine/)
 - [Be Focused](https://xwavesoft.com/be-focused-pro-for-iphone-ipad-mac-os-x.html)
 - [Day One](https://dayoneapp.com)
+- [Shift It](https://github.com/fikovnik/ShiftIt)
 
 #### Development
 
