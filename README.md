@@ -117,6 +117,7 @@ $ sh env.sh
 - [Shift It](https://github.com/fikovnik/ShiftIt)
 - [Vanilla](https://matthewpalmer.net/vanilla/)
 - [Balsamiq](https://balsamiq.com/)
+- [Send to Kindle](https://www.amazon.com/gp/sendtokindle)
 
 #### Development
 

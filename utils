@@ -75,3 +75,7 @@ e_success "Vanilla installed"
 e_header "Installing Balsamiq CLI"
 brew install balsamiq-mockups
 e_success "Balsamiq installed"
+
+e_header "Installing Send to Kindle"
+brew cask install send-to-kindle
+e_success "Send to Kingle installed"
