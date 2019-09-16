@@ -104,7 +104,8 @@ $ sh env.sh
 
 - [Franz](https://meetfranz.com/)
 - [Flux](https://justgetflux.com/)
-- [Evernote](https://evernote.com/intl/pt-br/download)
+- ~~[Evernote](https://evernote.com/intl/pt-br/download)~~
+- [Notion](https://www.notion.so/)
 - [Spotify](https://www.spotify.com/br/download/mac/)
 - [Harvest](https://www.getharvest.com/mac-time-tracking)
 - [RescueTime](https://www.rescuetime.com/download)

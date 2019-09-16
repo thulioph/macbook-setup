@@ -24,9 +24,9 @@ e_header "Installing Flux"
 brew cask install flux
 e_success "Flux installed"
 
-e_header "Installing Evernote"
-brew cask install evernote
-e_success "Evernote installed"
+e_header "Installing Notion"
+brew cask install notion
+e_success "Notion installed"
 
 e_header "Installing Spotify"
 brew cask install spotify
