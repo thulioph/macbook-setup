@@ -41,7 +41,7 @@ alias glog="git log --graph --decorate --pretty=format:'%Cred%h%Creset -%C(yello
 
 ## OSX
 alias emulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/"
-alias ip="ifconfig"
+alias ip="ifconfig | grep 192"
 alias wk='workon'
 alias pserver="python -m SimpleHTTPServer"
 
@@ -79,6 +79,10 @@ function ram() {
 # iTerm
 export TERM="xterm-256color"
 
+# Language Environment
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
@@ -92,3 +96,11 @@ export LC_ALL=en_US.UTF-8
 
 # SSH
 export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# mkvirtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
+# Python
+alias python='python3'
+export VIRTUALENVWRAPPER_PYTHON=$(which python3)
