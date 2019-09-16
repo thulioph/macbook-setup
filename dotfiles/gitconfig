@@ -73,4 +73,4 @@
   user = <YOUR_USERNAME>
 
 [web]
-  browser = google-chrome
+  browser = brave-browser

@@ -127,7 +127,8 @@ $ sh env.sh
 - [Docker](https://docs.docker.com/docker-for-mac/install/)
 - ~~[Sublime Text](https://www.sublimetext.com/3)~~
 - [Visual Studio Code](https://www.smashingmagazine.com/2018/01/visual-studio-code/)
-- [Google Chrome](https://www.google.com.br/chrome/)
+- ~~[Google Chrome](https://www.google.com.br/chrome/)~~
+- [Brave](https://brave.com/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Slack](https://slack.com/downloads/osx)
 - [Sketch](https://www.sketchapp.com/)

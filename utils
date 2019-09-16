@@ -4,9 +4,9 @@ e_header "Installing Homebrew Cask"
 brew tap caskroom/cask
 e_success "Homebrew Cask installed"
 
-e_header "Installing Google Chrome"
-brew cask install google-chrome
-e_success "Google Chrome installed"
+e_header "Installing Brave"
+brew cask install brave-browser
+e_success "Brave installed"
 
 e_header "Installing Firefox"
 brew cask install firefox
