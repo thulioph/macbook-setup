@@ -136,7 +136,7 @@ $ sh env.sh
 - [Postgress](https://www.postgresql.org/download/macosx/)
 - ~~[Android Studio](https://developer.android.com/studio/index.html?hl=pt-br)~~
 - [Postman](https://www.getpostman.com/)
-- [Redis](https://redis.io/)
+- ~~[Redis](https://redis.io/)~~
 - [Pipenv](https://github.com/pypa/pipenv)
 - [SQLite](https://www.sqlite.org/index.html)
 - [CircleCI](https://circleci.com/)

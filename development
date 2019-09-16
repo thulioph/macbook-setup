@@ -90,10 +90,6 @@ e_header "Installing JSON processor"
 brew install jq
 e_success "JSON processor installed"
 
-e_header "Installing Redis"
-brew install redis
-e_success "Redis installed"
-
 e_header "Installing Pipenv"
 brew install pipenv
 e_success "Pipenv installed"
