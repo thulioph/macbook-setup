@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-for FILE in $(find -L dotfiles -maxdepth 1); do
-  unlink ~/."${FILE##*/}" > /dev/null 2>&1
-  cp -r `pwd`/$FILE ~/."${FILE##*/}"
-done
