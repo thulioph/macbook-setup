@@ -43,6 +43,6 @@ $ sh personal.sh
 [BSD License](https://github.com/thulioph/macbook-setup/blob/master/LICENSE.md) © Thulio Philipe
 
 
-[vscode-config]: https://gist.github.com/thulioph/7bab8c61a013249d7960fd79b9d9dd52
+[vscode-config]: https://gist.github.com/thulioph/aa4b095ebba11b0806da085deb012db2
 [manage-ssh]: https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
 [new-gpg-key]: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
